@@ -16,10 +16,6 @@
 </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\source\Application\Application.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
         <Using Include="Nuke.Common" />
         <Using Include="Nuke.Common.IO" />
         <Using Include="Serilog" />

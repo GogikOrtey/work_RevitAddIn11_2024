@@ -14,7 +14,7 @@
 
         InstallersMap = new()
         {
-            {Solution.Installer, Solution.RevitAddIn11}
+            {Solution.Installer, Solution.Application}
         };
     }
 }
