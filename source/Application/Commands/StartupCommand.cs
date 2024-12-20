@@ -15,7 +15,7 @@ namespace Application.Commands
         public override void Execute()
         {
             var viewModel = new ModuleViewModel();
-            var view = new ModuleView(viewModel);
+            var view = new ModuleView(viewModel); 
             view.ShowDialog();
         }
     }
